@@ -1,0 +1,44 @@
+.Header {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin-bottom: 20px;
+}
+
+.Title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.Description {
+  font-size: 14px;
+  color: var(--color_muted);
+  line-height: 18px;
+}
+
+.GameWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.Input {
+  height: 50px;
+  background-color: var(--background_input);
+  border-radius: 12px;
+  border: 1px solid var(--input_border_color);
+  padding-inline: 8px;
+  font-size: 14px;
+  display: flex;
+
+  &:focus {
+    border-color: var(--foreground);
+    outline: none;
+  }
+}
+
+.Friends {
+  margin-bottom: 20px;
+}
