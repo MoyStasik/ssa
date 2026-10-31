@@ -1,0 +1,15 @@
+.Button {
+  background-color: var(--background_input);
+  padding-inline: 15px;
+  padding-block: 6px;
+  border-radius: 10px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--background_input--hover);
+  }
+
+  &:active {
+    background-color: var(--background_input--active);
+  }
+}

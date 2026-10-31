@@ -1,6 +1,6 @@
 'use client';
 
-import Button from '@/components/core/button/button';
+import Button from '@/app/components/core/button/button';
 import { useRouter } from 'next/navigation';
 import { ReactNode } from 'react';
 
